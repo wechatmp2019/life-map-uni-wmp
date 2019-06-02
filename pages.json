@@ -1,0 +1,48 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/main",
+			"style": {
+				"navigationBarTitleText": "一米校园",
+				"usingComponents": {
+				    "i-drawer": "/wxcomponents/drawer/index"
+				},
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mycard/main",
+			"style": {
+				"navigationBarTitleText": "我的卡包",
+				"usingComponents": {
+				    "i-message": "/wxcomponents/message/index",
+						"i-action-sheet": "/wxcomponents/action-sheet/index",
+						"i-swipeout": "/wxcomponents/swipeout/index",
+						"i-button": "/wxcomponents/button/index",
+						"i-cell": "/wxcomponents/cell/index",
+						"i-icon": "/wxcomponents/icon/index",
+						"i-toast": "/wxcomponents/toast/index"
+				}
+			}
+		},
+		{
+			"path": "pages/contactus/main",
+			"style": {
+				"navigationBarTitleText": "联系我们"
+			}
+		},
+		{
+			"path": "pages/mysubscription/main",
+			"style": {
+				"navigationBarTitleText": "我的订阅"
+			}
+		}
+	],
+	"globalStyle": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#B2D0EA",
+		"navigationBarTitleText": "WeChat",
+		"navigationBarTextStyle": "black",
+		"enablePullDownRefresh": true 
+	}
+}
