@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "@dcloudio/uni-ui": "0.0.8",
-    "qs": "^6.7.0"
+    "qs": "^6.7.3"
   }
 }
